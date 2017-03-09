@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace Inspinia_MVC5_SeedProject
+namespace Web
 {
     public class FilterConfig
     {

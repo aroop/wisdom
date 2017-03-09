@@ -1,8 +1,9 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using Web;
 
-[assembly: OwinStartupAttribute(typeof(Inspinia_MVC5_SeedProject.Startup))]
-namespace Inspinia_MVC5_SeedProject
+[assembly: OwinStartup(typeof(Startup))]
+namespace Web
 {
     public partial class Startup
     {

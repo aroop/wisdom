@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace Inspinia_MVC5_SeedProject
+namespace Web
 {
     public class BundleConfig
     {

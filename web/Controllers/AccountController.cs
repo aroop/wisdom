@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
-using Inspinia_MVC5_SeedProject.Models;
+using Web.Models;
 
-namespace Inspinia_MVC5_SeedProject.Controllers
+namespace Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller

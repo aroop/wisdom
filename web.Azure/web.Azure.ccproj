@@ -37,7 +37,7 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inspinia_MVC5_SeedProject\web.csproj">
+    <ProjectReference Include="..\web\web.csproj">
       <Name>web</Name>
       <Project>{86cadb26-5817-46b6-88c7-76d5753722c3}</Project>
       <Private>True</Private>
